@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>overflow的用法</title>
+<style type="text/css">
+#overflow1
+{
+	width:1800px;
+	height:800px;
+	overflow:visible;
+}
+#overflow2
+{
+	width:1800px;
+	height:800px;
+	overflow:auto;
+}
+#overflow3
+{
+	width:1800px;
+	height:800px;
+	overflow:hidden;
+}
+#overflow4
+{
+	width:1800px;
+	height:800px;
+	overflow:scroll;
+}
+</style>
+</head>
+
+<body>
+下面图片是第一层：overflow 设置为visible<br />
+<div id="overflow1">
+<img src="HTML.jpg" />
+</div>
+下面图片是第二层：overflow设置为auto<br />
+<div id="overflow2">
+<img src="HTML.jpg" />
+</div>
+下面图片是第三层：overflow设置为hidden<br />
+<div id="overflow3">
+<img src="HTML.jpg" />
+</div>
+下面图片是第四层：overflow设置为srcoll<br />
+<div id="overflow4">
+<img src="HTML.jpg" />
+</div>
+</body>
+</html>

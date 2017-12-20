@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>设置垂直对齐</title>
+<style type="text/css">
+<!--
+div
+{
+	height:40px;
+	border:1px solid #000000;
+}
+#base
+{
+	vertial-align:baseline;
+}
+#sub
+{
+	vertial-align:sub;
+	font-size:0.5 em;
+}
+#sup
+{
+	vertial-align:super;
+	font-size:0.5 em;
+}
+#top
+{
+	vertial-align:text-top;
+}
+#mid
+{
+	vertial-align:middle;
+}
+#bot
+{
+	vertial-align:bottom;
+}
+#b-bot
+{
+	vertial-align:text-bottom;
+}
+-->
+</style>
+</head>
+
+<body>
+<center>
+<font size=5 color=red>vertial-align 垂直对齐属性的应用效果</font>
+<table border=4 height=200>
+<tr bgcolor=lightgreen align=center>
+<td>设置vertial-align属性</td>
+<td>显示结果</td>
+<td>设置vertial-align属性</td>
+<td>显示结果</td>
+</tr>
+<tr>
+<td>vertial-align:sub</td>
+<td>c+o<font id=sub>2</font>->co<font id=sub>2</font></td>
+<!--在font标记内利用id选择符，应用sub样式-->
+<td>vertial-align:super</td>
+<td>a<font id=sup>2</font>+b<font id=sup>2</font>=c<font id=sup>2</font></td>
+</tr>
+<tr>
+<td id=top>vertial-align:top</td>
+<td id=top><img src="HTML.jpg" /></td>
+<td id=t-top>vertial-align:text-top</td>
+<td id=t-top><img src="HTML.jpg" /></td>
+</tr>
+<tr>
+<td id=mid>vertial-align:middle</td>
+<td id=mid><img src="HTML.jpg" /></td>
+<td id=base>veryial-align:baseline</td>
+<td id=base><img src="HTML.jpg" /></td>
+</tr>
+<tr>
+<td id=bot>vertial-align:bottom</td>
+<td id=bot><img src="HTML.jpg" /></td>
+<td id=t-bot>vertial-align:text-bottom</td>
+<td id=t-bot><img src="HTML.jpg" /></td>
+</tr>
+</table>
+</center>
+</body>
+</html>

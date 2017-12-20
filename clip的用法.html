@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>clip的用法</title>
+<style type="text/css">
+.textBottom{
+	color: #333333;
+	position: absolute;
+	left: 80px;
+	top: 1em;
+	font: 26px Century Gothic,Arial,Helvetica,sans-serif;
+	clip: rect(18px auto auto auto);
+}
+.textTop{
+	color:#cc0000;
+	position:absolute;
+	left:3em;
+	top:1em;
+	font:26px Century Gothic,Arial,Helvetica,sans-serif;
+	clip:rect(0 auto 18px 0);
+}
+.container{
+	width:28em;
+	height:5em;
+	margin:1em auto;
+	position:relative;
+	background:#F6F6F6;
+}
+</style>
+
+</head>
+
+
+<body>
+<div class="container">
+<a href="#"class="textTop">
+HTML+CSS完全自学手册</a>
+<a href="#"class="textBottom">
+HTML+CSS完全自学手册</a>
+</div>
+
+</body>
+</html>
