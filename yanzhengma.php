@@ -1,0 +1,15 @@
+<?php
+$im=imaggecreateturecolor(100,30);
+$bgcolor=imageallocate($im,255,255,255);
+imagefill($im,0,0,$bgcolor);
+for($i=0;$i<4;$i++){
+	$fontsize=6;
+	$fontcolor=imageallocate($im,rand(0,120),rand(0,120),rand(0,120));
+	$fontcontent=rand(0,9);
+	$x=($i*100/4)+rand(0,5);
+	$y=rand(0,5);
+	imagestring($im,$fontsize,$x,$y,$fontcontent,$fontcolor);
+	header("Content-type:image/png");
+	imagepng($im);
+	imagedestroy($im);
+}
